@@ -15,10 +15,7 @@ struct GameInfo {
     game_process: *mut HWND__
 }
 
-// "ws://localhost:5051/ws/seeder?groupid={}"
-// "ws://seeder.gametools.network:5252/ws/seeder?groupid={}"
 fn main() {
-    // anti afk thread, runs when game is in "joined" state
     loop {
         let game_info = is_running();
         if game_info.is_running {
