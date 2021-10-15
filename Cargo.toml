@@ -1,5 +1,5 @@
 [package]
-name = "anti-afk-script"
+name = "bf5-anti-afk-script"
 description = ""
 version = "0.1.0"
 edition = "2018"

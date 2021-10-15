@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "anti-afk-script"
+name = "bf5-anti-afk-script"
 version = "0.1.0"
 dependencies = [
  "serde",
