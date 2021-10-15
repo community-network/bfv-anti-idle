@@ -1,0 +1,12 @@
+[package]
+name = "server-join-scipt"
+description = ""
+version = "0.3.2"
+edition = "2018"
+authors = ["iiTzArcur <arcur@gametools.network>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.130"
+winapi = { version = "0.3.9", features = ["winuser"] }
